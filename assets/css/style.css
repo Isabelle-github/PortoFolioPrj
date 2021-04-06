@@ -75,6 +75,7 @@ main section:first-child div:first-child a:hover{
     color: #000;
     border-color: #fff;
 }
+
 main section:first-child div:last-child{
     width: 70%;
     margin: 0px auto;
@@ -89,6 +90,10 @@ main section:first-child div:last-child h1{
     font-family: 'Fjalla One', sans-serif;
     color: #666;
 }
+main section:first-child div:last-child:hover > h1{
+    color: #fff;
+    opacity: 1;
+} 
 /* ==========ROLLR========== */
 main section:nth-child(2){
     background-image: url(../img/portfolio3.png);
@@ -142,6 +147,10 @@ main section:nth-of-type(2) div:last-child h1{
     color: #666;
     font-family: 'Fjalla One', sans-serif;
 }
+main section:nth-of-type(2) div:last-child:hover > h1{
+    color: #000;
+    opacity: 1;
+} 
 /* ==========GALITOS'S========== */
 main section:nth-child(3){
     background-image: url(../img/portfolio4.jpg);
@@ -196,6 +205,10 @@ main section:nth-of-type(3) div:last-child h1{
     color: #666;
     font-family: 'Fjalla One', sans-serif;
 }
+main section:nth-of-type(3) div:last-child:hover > h1{
+    color: #fff;
+    opacity: 1;
+} 
 /* ==========TRETTO========== */
 main section:nth-child(4){
     background-image: url(../img/portfolio5.png);
@@ -249,6 +262,10 @@ main section:nth-of-type(4) div:last-child h1{
     color: #666;
     font-family: 'Fjalla One', sans-serif;
 }
+main section:nth-of-type(4) div:last-child:hover > h1{
+    color: #000;
+    opacity: 1;
+} 
 /* ==========What more========== */
 main section:last-child{
     background-color: #0A0A0A;
@@ -288,12 +305,15 @@ nav ul{
     list-style: none;
 }
 nav ul li a{
-    text-align: center;
     text-decoration: none;
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 10vw;
+    font-size: 9vw;
     line-height: 20vw;
     color: black;
+    position: relative;
+}
+nav ul li {
+    text-align: center;
 }
 nav ul li a:hover, li a:active{
     text-decoration: underline;
