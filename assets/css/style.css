@@ -320,9 +320,5 @@ nav ul li a:hover, li a:active{
 }
 nav p{
     padding:10% 50%;
+    font-size: 5vw;
 }
-/* TO DO:
-Hover on DIVE IN button completely
-Heart animation
-add comments and clean code
-footer more centered? */
